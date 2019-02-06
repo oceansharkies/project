@@ -1,0 +1,21 @@
+1. Introduction where you discuss the business problem and who would be interested in this project.
+In this project, popular next dentinations from coffee shops in different neighborhood will be explored. Identifying popular next destination can help characterize each neighborhood in Toronto in a new way via clustering. Perhaps in some neighborhoods people go shopping after having coffee. In another neighborhood, people may to go a train station instead. These information can be useful when recommending user-location specific ads and can be helpful for any  organization trying to fine tune ad recommendation
+
+2.Data where you describe the data that will be used to solve the problem and the source of the data.
+Foursquare API has 'nextvenue' call that can be used to identify popular next destinations from a given venue. Based on this, we can get a list of all next venues for all the coffee shops in each neighborhood in Toronto. The 'nextvenue' call has to be made on each coffee shop while keeping track of which neighborhood the coffee shop is located.
+
+
+3. Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
+Top3 popular next venues were identified for coffee shops in each neighborhood in Toronto. Clustering was applied to group neighorhoods that have similar traits. The clustered results are shown on a map
+
+
+4. Results section where you discuss the results.
+Clustering identified five groups. In one of the group, shopping mall was the most popular next detination, and in another heading to the local park or farm was the first choice. The train station was also a popular destination in some neighborhoods. Based on these results, we can identify which neighborhoods are in downtown(ex: where popular next venue is shopping mall) or closer to residential areas(ex: where popular next venus is park/farm), or perhaps near transportation hub.
+
+
+5.Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
+Based on these results, if a shopping mall wants to advertise upcoming sales more effectively, then it should focus more advertise on neighborhoods where people are more likey to come shopping after having coffee. Likewise, if a farm market wants to advertise its events, it should do so in the neighborhood where people are more likely come to the farm market .
+
+
+6. Conclusion section where you conclude the report.
+Toronoto neighborhoods were analyzed by looking at popular next destinations from coffee shops. Patterns were discovered via clustering and certain traits for each neighborhood is identified. These traits make it easier to understand what people do in each neighborhood.
